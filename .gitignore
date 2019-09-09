@@ -102,3 +102,8 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Other junk to ignore
+.idea/
+.vscode/
+.DS_Store
