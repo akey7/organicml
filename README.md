@@ -13,3 +13,9 @@ That is just a sample of all the images that were attempted. If you want to see 
 Ultimately, the project was hindered by a lack of available images. At most, I had 200 images with the benzene ring and 200 without. That is 400 examples, and about as much as an undergraduate would have in their first organic chemistry course to learn with. I got the net up to about 65% accuracy--not great, but for just 400 images?
 
 If I were to continue, I would need to find a way to get a lot more images.
+
+## How to launch on my GPU
+
+```
+TF_FORCE_GPU_ALLOW_GROWTH=true jupyter lab
+```
